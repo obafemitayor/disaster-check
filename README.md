@@ -143,5 +143,5 @@ npm test
 ### Frontend Tests
 ```bash
 cd front-end
-npm test
+npm test -- --watchAll=false
 ```
