@@ -43,15 +43,12 @@ To get started, try searching for these locations that often experience natural 
 - React
 - TypeScript
 - Chakra UI
-- Mapbox GL JS
-- React-Intl
-- Axios
+- Mapbox
 
 ### Backend
 - Node.js
 - Express
 - TypeScript
-- Jest
 - Node-Cache
 
 ## Project Structure
@@ -102,8 +99,8 @@ REACT_APP_MAPBOX_TOKEN=your_mapbox_token
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/obafemitayor/disaster-check
+cd disaster-check
 ```
 
 2. Install backend dependencies
@@ -114,7 +111,7 @@ npm install
 
 3. Install frontend dependencies
 ```bash
-cd ../front-end
+cd front-end
 npm install
 ```
 
