@@ -28,6 +28,13 @@ Powered by NASA's Earth Observatory Natural Event Tracker (EONET), DisasterCheck
 - Optimized performance for reliable access
 - Support for multiple languages
 
+### 📍 Example Locations to Try
+To get started, try searching for these locations that often experience natural disasters:
+- San Francisco, USA (earthquakes, wildfires)
+- Central Texas, USA (floods, severe storms)
+- Bgy. No. 42, Laoag, Ilocos Norte, Philippines (typhoons, floods)
+
+
 ## Tech Stack
 
 ### Frontend
