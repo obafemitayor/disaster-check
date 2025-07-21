@@ -56,19 +56,20 @@ To get started, try searching for these locations that often experience natural 
 ```
 .
 ├── api/                    # Backend API
-│   ├── src/
-│   │   ├── config/        # Configuration files
-│   │   ├── controllers/   # Route controllers
-│   │   ├── services/      # Business logic
-│   │   ├── types/        # TypeScript type definitions
-│   │   ├── utils/        # Utility functions
-│   │   └── routes/       # API routes
-│   └── test/             # Backend tests
+│   └── src/
+│       ├── config/        # Configuration files
+│       ├── controllers/   # Route controllers
+│       ├── services/      # Business logic
+│       ├── types/        # TypeScript type definitions
+│       ├── utils/        # Utility functions
+│       ├── routes/       # API routes
+│       └── test/         # Backend tests
+│
 └── front-end/            # Frontend application
     ├── src/
-    │   ├── components/   # React components
-    │   ├── pages/        # Page components
-    │   ├── services/     # API service calls
+    │   ├── components/   # Reusable components
+    │   ├── pages/        # Page components with Tests files
+    │   ├── services/     # API service calls with Tests files
     │   └── types/       # TypeScript type definitions
     └── public/          # Static assets
 
@@ -80,20 +81,6 @@ To get started, try searching for these locations that often experience natural 
 - npm (v6 or higher)
 - Mapbox API key
 - NASA EONET API access
-
-## Environment Variables
-
-### Backend (.env)
-```
-PORT=3001
-NASA_API_KEY=your_nasa_api_key
-```
-
-### Frontend (.env)
-```
-REACT_APP_API_URL=http://localhost:3001/api
-REACT_APP_MAPBOX_TOKEN=your_mapbox_token
-```
 
 ## Setup and Installation
 
@@ -117,7 +104,21 @@ npm install
 
 4. Set up environment variables
 - Create `.env` files in both `api/` and `front-end/` directories
-- Add the required environment variables as shown above
+- Add the required environment variables as shown below
+
+## Environment Variables
+
+### Backend (.env)
+```
+PORT=3001
+NASA_API_KEY=your_nasa_api_key
+```
+
+### Frontend (.env)
+```
+REACT_APP_API_URL=http://localhost:3001/api
+REACT_APP_MAPBOX_TOKEN=your_mapbox_token
+```
 
 ## Running the Application
 
