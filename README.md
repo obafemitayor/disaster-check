@@ -4,7 +4,9 @@
 
 DisasterCheck empowers you with real-time awareness of natural disasters happening around any location worldwide. Whether you're checking on loved ones, planning travel, or monitoring your area, our intuitive map-based interface puts critical information at your fingertips.
 
-Powered by NASA's Earth Observatory Natural Event Tracker (EONET), DisasterCheck delivers accurate, up-to-the-minute data about wildfires, severe storms, volcanic activity, and other natural hazards—all visualized on an interactive map for instant understanding.
+The app delivers accurate, up-to-the-minute data about wildfires, severe storms, volcanic activity, and other natural hazards—all visualized on an interactive map for instant understanding.
+
+You can view the app [here](https://disaster-check.vercel.app/)
 
 ## Why DisasterCheck?
 
